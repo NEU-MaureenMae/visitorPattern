@@ -1,5 +1,4 @@
 public class TelcoPromo {
-    // bank offer
     public static void main(String[] args) {
         TelcoSubscription smart = new Telco(15, 500, "Smart", false);
         TelcoSubscription globe = new Telco(10, 450, "Globe", true);

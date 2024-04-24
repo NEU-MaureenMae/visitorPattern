@@ -1,11 +1,10 @@
 public class Telco implements TelcoSubscription {
-    // savings account
     private String telcoName;
     private double promoPrice;
     private int dataAllowance;
     private boolean unliCallText;
 
-    public Telco(int dataAllowance, double promoPrice, String telcoName, boolean unliCallText){
+    public Telco(int dataAllowance, double promoPrice, String telcoName, boolean unliCallText) {
         this.dataAllowance = dataAllowance;
         this.promoPrice = promoPrice;
         this.telcoName = telcoName;
@@ -24,11 +23,11 @@ public class Telco implements TelcoSubscription {
         return unli.showUnliCallsTextOffer(telcoName, unliCallText);
     }
 
-    public String getTelcoName(){
+    public String getTelcoName() {
         return telcoName;
     }
 
-    public double getPromoPrice (){
+    public double getPromoPrice() {
         return promoPrice;
     }
 

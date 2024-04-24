@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class TelcoAllowance implements UsagePromo {
-    // bank insurance
+
 
     private static Map<String, Integer> dataMap = new HashMap<>();
 
@@ -12,9 +12,9 @@ public class TelcoAllowance implements UsagePromo {
     }
 
     public String showAllowance(String telcoName, double money) {
-         int dataAllowance = dataMap.get(telcoName);
+        int dataAllowance = dataMap.get(telcoName);
 
-         return "Offers a data allowance of " + dataAllowance + "GB for ₱" + money + " per month";
+        return "Offers a data allowance of " + dataAllowance + "GB for ₱" + money + " per month";
     }
 
 }
